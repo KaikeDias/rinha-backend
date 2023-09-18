@@ -19,5 +19,5 @@ public record PersonDTO(
    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
    String birthday,
 
-   List<@Size(min = 1, max = 32)String> stack
+   List<@Size(min = 1, max = 32)String> stackList
 ) {}
